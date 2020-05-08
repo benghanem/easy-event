@@ -1,0 +1,27 @@
+.bookings-control {
+    position: relative;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    //background-color: royalblue;
+}
+
+
+.bookings-control-item {
+    position: relative;
+    border: none;
+    font: inherit;
+    padding: 4px;
+    width: 30%;
+    background-color: white;
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+
+.bookings-control-active {
+    border-bottom: 4px solid #00a6ff;
+}
+
+.bookings-control-item:focus {
+    outline: none;
+}
